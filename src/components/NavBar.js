@@ -41,6 +41,8 @@ const NavBar = () => {
             </ul>
             
           </div>
+  <iframe title="myhtml" src="/myhtml.html" style={{ width: '100%', height: '500px', border: 'none' }}></iframe>
+ 
         </div>
       </nav>
     </div>
