@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .news-section {
+        width: 60%;
+    }
+    .trending-section {
+        width: 30%;
+        background-color: #f0f0f0;
+        padding: 10px;
+    }
+    .trending-header {
+        font-weight: bold;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .category {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .category a {
+        text-decoration: none;
+        color: black;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+    }
+    .category a:hover {
+        background-color: darkgreen;
+        color: white;
+    }
+    .news-item {
+        margin-bottom: 20px;
+        border: 2px solid yellow;
+        padding: 10px;
+        background-color: black;
+        color: yellow;
+        font-weight: bold;
+    }
+    .news-item img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        border: 2px solid yellow;
+    }
+    .news-content {
+        margin-top: 10px;
+    }
+    .line {
+        border-top: 1px solid yellow;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="news-section">
+            <div class="news-item">
+                Upper News Title
+            </div>
+            <div class="line"></div>
+            <div class="news-item">
+                <img src="news-image.jpg" alt="News Image">
+                <div class="news-content">
+                    News Paragraph here...
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="news-item">
+                Lower News Title
+            </div>
+        </div>
+        <div class="trending-section">
+            <div class="trending-header">Top Trending</div>
+            <div class="category">
+                <a href="#">Business</a>
+                <a href="#">Sport</a>
+            </div>
+            <div class="line"></div>
+            <div class="category">
+                <a href="#">Category 1</a>
+                <a href="#">Category 2</a>
+                <a href="#">Category 3</a>
+            </div>
+            <div class="line"></div>
+            <div class="category">
+                <a href="#">Category 4</a>
+                <a href="#">Category 5</a>
+                <a href="#">Category 6</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
