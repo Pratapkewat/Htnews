@@ -43,6 +43,7 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
+<<<<<<< HEAD
       <div className="container mt-5 pt-5">
 <div className="row">
   <div className="col-12 d-flex justify-content-between align-items-center">
@@ -62,13 +63,43 @@ const NavBar = () => {
 </div>
 <hr className="green-line" />
 </div>
+=======
+
+      {/* Horizontal line with images and paragraphs */}
+      <div style={{ borderTop: '1px solid yellow', margin: '1em 0', padding: '1em 0' }}>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-3">
+              <img src="/path/to/image1.jpg" alt="Image 1" style={{ width: '100%', border: '1px solid black' }} />
+              <p style={{ margin: '1em 0', border: '1px solid black' }}>Paragraph 1</p>
+            </div>
+            <div className="col-md-6">
+              <img src="/path/to/image2.jpg" alt="Image 2" style={{ width: '100%', border: '1px solid black' }} />
+              <p style={{ margin: '1em 0', border: '1px solid black' }}>Paragraph 2</p>
+            </div>
+            <div className="col-md-3">
+              <img src="/path/to/image3.jpg" alt="Image 3" style={{ width: '100%', border: '1px solid black' }} />
+              <p style={{ margin: '1em 0', border: '1px solid black' }}>Paragraph 3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Green line and paragraph */}
+      <div style={{ borderTop: '1px solid green', margin: '1em 0', padding: '1em 0' }}>
+        <p style={{ lineHeight: '10em' }}>10 inch paragraph content here...</p>
+      </div>
+>>>>>>> f036b79029edcc0ae77610938dab63314601ed90
     </div>
   );
 };
 
 export default NavBar;
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> f036b79029edcc0ae77610938dab63314601ed90
