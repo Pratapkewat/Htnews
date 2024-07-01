@@ -28,11 +28,35 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Additional Styles */
+.image-container {
+  position: relative;
+  border: 1px solid yellow;
+  height: 3in;
+  width: calc(100% / 3 - 1rem);
+  margin: 1rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid yellow;
+}
+
+.text-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 0, 0.8);
+  padding: 5px;
+  font-weight: bold;
+  color: black;
+  border-top: 1px solid yellow;
+  margin-top: 1rem;
+}
+
+.green-line {
+  border-top: 1px solid green;
+  margin-top: 1rem;
 }

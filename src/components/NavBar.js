@@ -1,105 +1,211 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NewsLogo from './NewsLogo.jpg';
-
+import Logos from './Logos.jpg';
+import Girl2 from './Girl2.jpg';
+import Kids2 from './Kids2.jpg';
+import Tops2 from './Tops2.jpg';
+import jewallary2 from './jewallary2.jpg';
+import Girl3 from './Girl3.jpg';
+import Kids3 from './Kids3.jpg';
+import Tops3 from './Tops3.jpg';
+import jewallary3 from './jewallary3.jpg';
+import Girl from './Girl.jpg';
+import Kids from './Kids.jpg';
+import Tops from './Tops.jpg';
+import jewallary from './jewallary.jpg';
+import Girl4 from './Girl4.jpg';
+import Kids4 from './Kids4.jpg';
+import Tops4 from './Tops4.jpg';
+import jewallary4 from './jewallary4.jpg';
 
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-        <div className="container-fluid">
-          <Link className="navbar-brand d-flex align-items-center" to="/">
-            <img src={NewsLogo} height="40" width="40" alt="logo" className="img-thumbnail" style={{ marginRight: '10px' }} />
-            Hindustan DNA
-          </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarText">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link className="nav-link" to="/">Home</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/business">Business</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/entertainment">Entertainment</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/science">Science</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/technology">Technology</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/sports">Sports</Link>
-              </li>
-            </ul>
-            <form className="d-flex">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button className="btn btn-outline-light" type="submit">Search</button>
-            </form>
-          </div>
+      <div className="header">
+        <img src={NewsLogo} alt="logo" className="img-thumbnail" style={{ marginLeft: '1in', height: '1.3in', width: '2.3in' }} />
+        <img src={Logos} alt="logo" className="img-thumbnail" style={{ marginLeft: '1in', height: '1.3in', width: '2.3in', marginTop: '2px' }} />
+        <div className="search-container" style={{ display: 'inline-block', marginLeft: '1in', verticalAlign: 'top' }}>
+          <form className="d-flex">
+            <input className="form-control" type="search" placeholder="Search" aria-label="Search" style={{ width: '2in', borderRadius: '50px', padding: '10px', border: '1px solid #ccc', outline: 'none' }} />
+            <button className="btn btn-outline-light" type="submit" style={{ marginLeft: '7px', padding: '10px', borderRadius: '50px', border: 'none', backgroundColor: '#4CAF50', color: 'white' }}>Search</button>
+          </form>
         </div>
+      </div>
+
+      <nav className="navbar" style={{ backgroundColor: 'yellowgreen', padding: '0 1in' }}>
+        <ul style={{ listStyleType: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'row' }}>
+          <li style={{ float: 'left' }}>
+            <Link className="nav-link active" to="/" style={{ display: 'block', color: 'white', textAlign: 'center', padding: '14px 16px', textDecoration: 'none', backgroundColor: 'green' }}>Home</Link>
+          </li>
+          <li style={{ float: 'left' }}>
+            <Link className="nav-link" to="/Tops" style={{ display: 'block', color: 'white', textAlign: 'center', padding: '14px 16px', textDecoration: 'none' }}>Tops</Link>
+          </li>
+          <li style={{ float: 'left' }}>
+            <Link className="nav-link" to="/Girlcloth" style={{ display: 'block', color: 'white', textAlign: 'center', padding: '14px 16px', textDecoration: 'none' }}>Girlcloth</Link>
+          </li>
+          <li style={{ float: 'left' }}>
+            <Link className="nav-link" to="/KidsWear" style={{ display: 'block', color: 'white', textAlign: 'center', padding: '14px 16px', textDecoration: 'none' }}>KidsWear</Link>
+          </li>
+          <li style={{ float: 'left' }}>
+            <Link className="nav-link" to="/Jawallary" style={{ display: 'block', color: 'white', textAlign: 'center', padding: '14px 16px', textDecoration: 'none' }}>Jawallary</Link>
+          </li>
+          <li style={{ float: 'left' }}>
+            <Link className="nav-link" to="/Special" style={{ display: 'block', color: 'white', textAlign: 'center', padding: '14px 16px', textDecoration: 'none' }}>Special</Link>
+          </li>
+        </ul>
       </nav>
-<<<<<<< HEAD
-      <div className="container mt-5 pt-5">
-<div className="row">
-  <div className="col-12 d-flex justify-content-between align-items-center">
-    <div className="image-container">
-      <img src="my-app/public/Images/2re3.jpg" alt="img1" className="img-fluid" />
-      <p className="text-container">यहाँ पर न्यूज़ का विवरण होगा।</p>
-    </div>
-    <div className="image-container mx-1">
-      <img src="my-app/public/Images/12e34.jpg" alt="img2" className="img-fluid" />
-      <p className="text-container">यहाँ पर न्यूज़ का विवरण होगा।</p>
-    </div>
-    <div className="image-container">
-      <img src="my-app/public/Images/7126642-untitled-design-34.jpg" alt="img3" className="img-fluid" />
-      <p className="text-container">यहाँ पर न्यूज़ का विवरण होगा।</p>
-    </div>
-  </div>
-</div>
-<hr className="green-line" />
-</div>
-=======
 
-      {/* Horizontal line with images and paragraphs */}
-      <div style={{ borderTop: '1px solid yellow', margin: '1em 0', padding: '1em 0' }}>
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-3">
-              <img src="/path/to/image1.jpg" alt="Image 1" style={{ width: '100%', border: '1px solid black' }} />
-              <p style={{ margin: '1em 0', border: '1px solid black' }}>Paragraph 1</p>
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #ff0000', padding: '1px', height: '100%' }}>
+              <img src={Tops2} alt="image1" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Ethic Tops riwaz</span><br />Price: 500 Rs call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
             </div>
-            <div className="col-md-6">
-              <img src="/path/to/image2.jpg" alt="Image 2" style={{ width: '100%', border: '1px solid black' }} />
-              <p style={{ margin: '1em 0', border: '1px solid black' }}>Paragraph 2</p>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #00ff00', padding: '1px', height: '100%' }}>
+              <img src={Kids2} alt="image2" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Surat girl t-shirt Blueray</span><br />Price: 500 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
             </div>
-            <div className="col-md-3">
-              <img src="/path/to/image3.jpg" alt="Image 3" style={{ width: '100%', border: '1px solid black' }} />
-              <p style={{ margin: '1em 0', border: '1px solid black' }}>Paragraph 3</p>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #0000ff', padding: '1px', height: '100%' }}>
+              <img src={Girl2} alt="image3" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>New Launch Boy Jeans Alaxjeans</span><br />Price: 600 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #ffff00', padding: '1px', height: '100%' }}>
+              <img src={jewallary2} alt="image4" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Jawalery Name: 258 jwl</span><br />Price: 300 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Green line and paragraph */}
-      <div style={{ borderTop: '1px solid green', margin: '1em 0', padding: '1em 0' }}>
-        <p style={{ lineHeight: '10em' }}>10 inch paragraph content here...</p>
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #ff0000', padding: '1px', height: '100%' }}>
+              <img src={Tops} alt="image1" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Ethic Tops riwaz</span><br />Price: 500 Rs call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #00ff00', padding: '1px', height: '100%' }}>
+              <img src={Kids} alt="image2" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Surat girl t-shirt Blueray</span><br />Price: 500 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #0000ff', padding: '1px', height: '100%' }}>
+              <img src={Girl} alt="image3" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>New Launch Boy Jeans Alaxjeans</span><br />Price: 600 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #ffff00', padding: '1px', height: '100%' }}>
+              <img src={jewallary} alt="image4" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Jawalery Name: 258 jwl</span><br />Price: 300 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
->>>>>>> f036b79029edcc0ae77610938dab63314601ed90
+
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #ff0000', padding: '1px', height: '100%' }}>
+              <img src={Tops3} alt="image1" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Ethic Tops riwaz</span><br />Price: 500 Rs call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #00ff00', padding: '1px', height: '100%' }}>
+              <img src={Kids3} alt="image2" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Surat girl t-shirt Blueray</span><br />Price: 500 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #0000ff', padding: '1px', height: '100%' }}>
+              <img src={Girl3} alt="image3" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>New Launch Boy Jeans Alaxjeans</span><br />Price: 600 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #ffff00', padding: '1px', height: '100%' }}>
+              <img src={jewallary3} alt="image4" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Jawalery Name: 258 jwl</span><br />Price: 300 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #ff0000', padding: '1px', height: '100%' }}>
+              <img src={Tops4} alt="image1" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Ethic Tops riwaz</span><br />Price: 500 Rs call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #00ff00', padding: '1px', height: '100%' }}>
+              <img src={Kids4} alt="image2" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Surat girl t-shirt Blueray</span><br />Price: 500 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #0000ff', padding: '1px', height: '100%' }}>
+              <img src={Girl4} alt="image3" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>New Launch Boy Jeans Alaxjeans</span><br />Price: 600 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card" style={{ border: '3px solid #ffff00', padding: '1px', height: '100%' }}>
+              <img src={jewallary4} alt="image4" className="card-img-top" />
+              <div className="card-body">
+                <p className="card-text" style={{ textAlign: 'center' }}><span style={{ color: 'red', fontWeight: 'bold' }}>Jawalery Name: 258 jwl</span><br />Price: 300 Rs Whatsapp/call-6261441698<br />Cash on delivery in Indore, Bhopal, Gwalior<br />All village In Harda, Hoshangabad (M.P.)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };
 
 export default NavBar;
-<<<<<<< HEAD
-
-
-
-
-
-=======
->>>>>>> f036b79029edcc0ae77610938dab63314601ed90

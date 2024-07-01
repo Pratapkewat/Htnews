@@ -14,15 +14,15 @@ const App = () => {
 
   const getUrl = (category) => {
     switch (category) {
-      case 'business':
+      case 'Suits':
         return 'https://newsapi.org/v2/everything?q=apple&from=2024-06-23&to=2024-06-23&sortBy=popularity&apiKey=ba61c4780b624638855ba393c9582514';
-      case 'entertainment':
+      case 'Girl Fashion':
         return 'https://newsapi.org/v2/everything?domains=wsj.com&apiKey=ba61c4780b624638855ba393c9582514';
-      case 'science':
+      case 'Tops':
         return 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=ba61c4780b624638855ba393c9582514';
-      case 'technology':
+      case 'Kids':
         return 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=ba61c4780b624638855ba393c9582514';
-      case 'sports':
+      case 'Jawallery':
         return 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=ba61c4780b624638855ba393c9582514';
       default:
         return `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${apiKey}`;
