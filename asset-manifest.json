@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/Htnews/static/css/main.db62923b.css",
-    "main.js": "/Htnews/static/js/main.b95cfd9c.js",
+    "main.css": "/Htnews/static/css/main.ac5b486e.css",
+    "main.js": "/Htnews/static/js/main.5e248ffb.js",
     "static/js/453.ed3810f9.chunk.js": "/Htnews/static/js/453.ed3810f9.chunk.js",
+    "static/media/Kids.jpg": "/Htnews/static/media/Kids.d3c980b5d75a14391a8a.jpg",
     "static/media/loading.gif": "/Htnews/static/media/loading.e5db2937afa03dec866d.gif",
+    "static/media/Girl4.jpg": "/Htnews/static/media/Girl4.6e48fc912678c6fe6eb8.jpg",
+    "static/media/jewallary2.jpg": "/Htnews/static/media/jewallary2.0d4eebd84c86e8203a47.jpg",
+    "static/media/jewallary3.jpg": "/Htnews/static/media/jewallary3.2c26eec375aa7c17c91f.jpg",
+    "static/media/Girl3.jpg": "/Htnews/static/media/Girl3.cf6deb76a37447c3c427.jpg",
+    "static/media/Girl.jpg": "/Htnews/static/media/Girl.c33153bcbfab1c3b62fe.jpg",
+    "static/media/Tops4.jpg": "/Htnews/static/media/Tops4.2632d943ff13657d91f1.jpg",
+    "static/media/jewallary.jpg": "/Htnews/static/media/jewallary.0ed21cc073885406189a.jpg",
+    "static/media/jewallary4.jpg": "/Htnews/static/media/jewallary4.0ed21cc073885406189a.jpg",
+    "static/media/Kids3.jpg": "/Htnews/static/media/Kids3.679b8816bbf1015faf30.jpg",
+    "static/media/Tops3.jpg": "/Htnews/static/media/Tops3.acf0a99a0821f13ff259.jpg",
+    "static/media/Logos.jpg": "/Htnews/static/media/Logos.d236152f9d1904f390de.jpg",
+    "static/media/Tops.jpg": "/Htnews/static/media/Tops.561502f545e24782fae9.jpg",
+    "static/media/Tops2.jpg": "/Htnews/static/media/Tops2.0669529a1769aaa86ad3.jpg",
+    "static/media/Kids2.jpg": "/Htnews/static/media/Kids2.4934e25231b111d67b3d.jpg",
+    "static/media/Kids4.jpg": "/Htnews/static/media/Kids4.7f3c0bad2b5ddb8268f0.jpg",
     "index.html": "/Htnews/index.html",
-    "main.db62923b.css.map": "/Htnews/static/css/main.db62923b.css.map",
-    "main.b95cfd9c.js.map": "/Htnews/static/js/main.b95cfd9c.js.map",
+    "main.ac5b486e.css.map": "/Htnews/static/css/main.ac5b486e.css.map",
+    "main.5e248ffb.js.map": "/Htnews/static/js/main.5e248ffb.js.map",
     "453.ed3810f9.chunk.js.map": "/Htnews/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db62923b.css",
-    "static/js/main.b95cfd9c.js"
+    "static/css/main.ac5b486e.css",
+    "static/js/main.5e248ffb.js"
   ]
 }
